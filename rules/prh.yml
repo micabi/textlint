@@ -1,0 +1,23 @@
+version: 1
+
+rules:
+  - pattern:
+      - 買取り
+      - 買取
+    expected: 買い取り
+
+  - pattern:
+      - レファレンス
+    expected: リファレンス
+
+  - pattern: 下さい
+    expected: ください
+
+  - pattern: 難しい
+    expected: むずかしい
+
+  - pattern: 難しく
+    expected: むずかしく
+
+  - pattern: 概ね
+    expected: おおむね

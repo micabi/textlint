@@ -1,0 +1,10 @@
+{
+  "filters": {},
+  "rules": {
+    "spellcheck-tech-word": true,
+    "preset-japanese": true,
+    "prh": {
+      "rulePaths": ['rules/prh.yml']
+    }
+  }
+}
